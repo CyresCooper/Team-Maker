@@ -190,7 +190,7 @@ const generateManager = (manager) => {
       <h6 class="card-subtitle mb-2 text-muted">Manager</h6>
       <ul>
         <li class="list-group-item">ID: ${manager.getId()}</li>
-        <li class="list-group-item">Office #: ${manager.getOfficeNum()}</li>
+        <li class="list-group-item">Office #: ${manager.getmangerOffice()}</li>
         <li class="list-group-item"><a href="mailto:${manager.getEmail()}"  class="btn btn-dark">Email</a></li>
     </ul>
     </div>`
